@@ -26,3 +26,7 @@ jobs:
 
       - name: start
         run: npm start &
+
+      - name: test-curl
+        run: curl http://localhost:3000
+      
